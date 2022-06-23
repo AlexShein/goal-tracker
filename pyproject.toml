@@ -8,6 +8,10 @@ authors = ["Alexander Shein <mr.ashein@gmail.com>"]
 python = "^3.10"
 fastapi = "^0.78.0"
 uvicorn = "^0.17.6"
+sqlmodel = "^0.0.6"
+alembic = "^1.8.0"
+asyncpg = "^0.25.0"
+psycopg2-binary = "^2.9.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
@@ -15,6 +19,8 @@ black = "^22.3.0"
 mypy = "^0.961"
 pylint = "^2.14.3"
 isort = "^5.10.1"
+sqlalchemy-stubs = "^0.4"
+pgcli = "^3.4.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
