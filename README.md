@@ -15,8 +15,11 @@ Web app to track personal goals
 
 ## TODO:
 
+- Start React front app
 - Goal & GoalProgress CRUD API
+- First frontend page with current goals
 - Tests
 - Github CI/CD
-- Start React front app
+  - Black, pylint
+  - Eslint
 - Add auth
